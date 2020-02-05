@@ -2,7 +2,7 @@
     "name": "react-simple-snippets",
     "displayName": "React Simple Snippets",
     "description": "VSCode Snippets - React Native and React JS",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "icon": "assets/simple.png",
     "repository": {
         "type": "git",
