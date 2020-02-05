@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-        ## ReactJS Snippets
+        ## React Snippets
 </p>
 
 ## Tabela de Conteúdo
@@ -8,24 +8,18 @@
 - [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Linguagens Suportadas](#linguagens-suportadas)
-- [Snippets](#snippets)
+- [React Native Snippets](#react-native-snippets)
+- [React JS Snippets](#react-js-snippets)
 - [Licença](#licen%C3%A7a)
 - [Contato](#contato)
 
 ## Sobre o Projeto
 
-Este projeto visa tem por objetivo prover um conjunto de Snippets para criação de componentes para ReactJS
+Este projeto visa tem por objetivo prover um conjunto de Snippets para criação de componentes para ReactJS e React Native
 
-### Linguagens Suportadas
+### React Native Snippets 
 
-- JavaScript (.js)
-- TypeScript (.ts)
-- JavaScript React (.jsx)
-- TypeScript React (.tsx)
-
-### Snippets
-
-Abaixo segue a lista com dos Snippets disponíveis:
+Abaixo segue a lista com dos Snippets disponíveis para React JS:
 
 |                 Gatilho | Conteúdo                                                                      |
 | ----------------------: | ----------------------------------------------------------------------------- |
@@ -35,6 +29,19 @@ Abaixo segue a lista com dos Snippets disponíveis:
 |                 `api →` | Cria um arquivo de configuração do Axios                                      |
 |       `reactotron-rn →` | Cria arquivo de configuração do **Reactotron**                                |
 
+
+## React JS Snippets
+
+
+Abaixo segue a lista com dos Snippets disponíveis para React Native:
+
+|                 Gatilho    | Conteúdo                                                                      |
+| ----------------------:    | ----------------------------------------------------------------------------- |
+|                 `rc →`     | Cria um Componente **Default**                                                |
+|                `rfc →`     | Cria um Componente **Functional**                                             |
+|           `styled-react →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                 `api →`    | Cria um arquivo de configuração do Axios                                      |
+|       `reactotron-react →` | Cria arquivo de configuração do **Reactotron**                                |
 
 ## Licença
 

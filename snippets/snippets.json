@@ -1,5 +1,5 @@
 {
-    "defaultComponent": {
+    "nativeDefaultComponent": {
       "prefix": "rnc",
       "body": [
         "import React from 'react';",
@@ -16,7 +16,7 @@
       "description": "Create React Native Component"
     },
   
-    "functionalComponent": {
+    "nativeFunctionalComponent": {
       "prefix": "rnfc",
       "body": [
         "import React from 'react';",
@@ -34,7 +34,7 @@
       "description": "Create React Native Functional Component"
     },
   
-    "styled": {
+    "nativeStyled": {
       "prefix": "styled-rn",
       "body": [
         "import styled from 'styled-components/native';",
@@ -47,53 +47,8 @@
       "description": "Create React Native Styled Components file"
     },
   
-    "axiosApi": {
-      "prefix": "api",
-      "body": [
-        "import axios from 'axios';",
-        "",
-        "const api = axios.create({",
-        "  baseURL: ${1},",
-        "});",
-        "",
-        "export default api;",
-        ""
-      ],
-      "description": "Create Axios Configuration"
-    },
   
-  
-    "combineReducer": {
-      "prefix": "reducer-index",
-      "body": [
-        "import { combineReducers } from 'redux';",
-        "",
-        "const reducers = combineReducers({",
-        "  // Remova essa linha depois de adicionar seus ducks",
-        "  example: () => [],",
-        "});",
-        "",
-        "export default reducers;",
-        ""
-      ],
-      "description": "Create Ducks index.js file"
-    },
-  
-    "combineSaga": {
-      "prefix": "saga-index",
-      "body": [
-        "import { all } from 'redux-saga/effects';",
-        "",
-        "export default function* rootSaga() {",
-        "  yield all([]);",
-        "}",
-        ""
-      ],
-      "description": "Create Sagas index.js file"
-    },
-  
-  
-    "reactotronConfig": {
+    "nativeReactotronConfig": {
       "prefix": "reactotron-rn",
       "body": [
         "import Reactotron from 'reactotron-react-native';",
@@ -111,6 +66,114 @@
         ""
       ],
       "description": "Create React Native Reactotron Config"
+    },
+
+    "reactDefaultComponent": {
+      "prefix": "rc",
+      "body": [
+        "import React from 'react';",
+        "",
+        "",
+        "// import { Container } from './styles';",
+        "",
+        "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "    return <div />;",
+        "}",
+        ""
+      ],
+      "description": "Create React JS Component"
+    },
+  
+    "reactFunctionalComponent": {
+      "prefix": "rfc",
+      "body": [
+        "import React from 'react';",
+        "",
+        "// import { Container } from './styles';",
+        "",
+        "export default const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "  return (",
+        "    <div />",
+        "  );",
+        "}",
+        ""
+      ],
+      "description": "Create React JS Functional Component"
+    },
+  
+    "reactStyled": {
+      "prefix": "styled-react",
+      "body": [
+        "import styled from 'styled-components';",
+        "",
+        "export const ${1:Container} = styled.${2:div}`",
+        "  ${3}",
+        "`;",
+        ""
+      ],
+      "description": "Create React JS Styled Components file"
+    },
+  
+    "reactReactotronConfig": {
+      "prefix": "reactotron-rn",
+      "body": [
+        "import Reactotron from 'reactotron-react-native';",
+        "",
+        "if (process.env.NODE_ENV === 'development') {",
+        "  const tron = Reactotron",
+        "    .configure()",
+        "    .connect();",
+        "",
+        "  tron.clear();",
+        "",
+        "  console.tron = tron;",
+        "}",
+        ""
+      ],
+      "description": "Create React JS Reactotron Config"
+    },
+
+    "combineReducer": {
+      "prefix": "reducer-index",
+      "body": [
+        "import { combineReducers } from 'redux';",
+        "",
+        "const reducers = combineReducers({",
+        "  example: exampleRedeucer,",
+        "});",
+        "",
+        "export default reducers;",
+        ""
+      ],
+      "description": "Create a Reducers index.js file"
+    },
+  
+    "combineSaga": {
+      "prefix": "saga-index",
+      "body": [
+        "import { all } from 'redux-saga/effects';",
+        "",
+        "export default function* rootSaga() {",
+        "  yield all([]);",
+        "}",
+        ""
+      ],
+      "description": "Create Sagas index.js file"
+    },
+
+    "axiosApi": {
+      "prefix": "api",
+      "body": [
+        "import axios from 'axios';",
+        "",
+        "const api = axios.create({",
+        "  baseURL: ${1},",
+        "});",
+        "",
+        "export default api;",
+        ""
+      ],
+      "description": "Create Axios Configuration"
     }
   }
   
