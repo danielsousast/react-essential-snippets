@@ -1,0 +1,116 @@
+{
+    "defaultComponent": {
+      "prefix": "rnc",
+      "body": [
+        "import React from 'react';",
+        "",
+        "import { View } from 'react-native';",
+        "",
+        "// import { Container } from './styles';",
+        "",
+        "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "    return <View />;",
+        "}",
+        ""
+      ],
+      "description": "Create React Native Component"
+    },
+  
+    "functionalComponent": {
+      "prefix": "rnfc",
+      "body": [
+        "import React from 'react';",
+        "import { View } from 'react-native';",
+        "",
+        "// import { Container } from './styles';",
+        "",
+        "export default const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "  return (",
+        "    <View />",
+        "  );",
+        "}",
+        ""
+      ],
+      "description": "Create React Native Functional Component"
+    },
+  
+    "styled": {
+      "prefix": "styled-rn",
+      "body": [
+        "import styled from 'styled-components/native';",
+        "",
+        "export const ${1:Container} = styled.${2:View}`",
+        "  ${3}",
+        "`;",
+        ""
+      ],
+      "description": "Create React Native Styled Components file"
+    },
+  
+    "axiosApi": {
+      "prefix": "api",
+      "body": [
+        "import axios from 'axios';",
+        "",
+        "const api = axios.create({",
+        "  baseURL: ${1},",
+        "});",
+        "",
+        "export default api;",
+        ""
+      ],
+      "description": "Create Axios Configuration"
+    },
+  
+  
+    "combineReducer": {
+      "prefix": "reducer-index",
+      "body": [
+        "import { combineReducers } from 'redux';",
+        "",
+        "const reducers = combineReducers({",
+        "  // Remova essa linha depois de adicionar seus ducks",
+        "  example: () => [],",
+        "});",
+        "",
+        "export default reducers;",
+        ""
+      ],
+      "description": "Create Ducks index.js file"
+    },
+  
+    "combineSaga": {
+      "prefix": "saga-index",
+      "body": [
+        "import { all } from 'redux-saga/effects';",
+        "",
+        "export default function* rootSaga() {",
+        "  yield all([]);",
+        "}",
+        ""
+      ],
+      "description": "Create Sagas index.js file"
+    },
+  
+  
+    "reactotronConfig": {
+      "prefix": "reactotron-rn",
+      "body": [
+        "import Reactotron from 'reactotron-react-native';",
+        "",
+        "if (__DEV__) {",
+        "  const tron = Reactotron",
+        "    .configure()",
+        "    .useReactNative()",
+        "    .connect();",
+        "",
+        "  tron.clear();",
+        "",
+        "  console.tron = tron;",
+        "}",
+        ""
+      ],
+      "description": "Create React Native Reactotron Config"
+    }
+  }
+  

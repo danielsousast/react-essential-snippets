@@ -1,0 +1,25 @@
+{
+    "name": "react-js-snippets",
+    "displayName": "React JS Snippets",
+    "description": "VSCode Snippets - ReactJs",
+    "version": "1.21.1",
+    "publisher": "danielsousadev",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "global": "^4.4.0",
+        "vsce": "^1.73.0"
+    }
+}
