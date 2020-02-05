@@ -11,7 +11,8 @@
         "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
         "    return <View />;",
         "}",
-        ""
+        "",
+        "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
       ],
       "description": "Create React Native Stateless Component"
     },
@@ -24,7 +25,7 @@
         "",
         "// import { Container } from './styles';",
         "",
-        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
         "  return (",
         "    <View />",
         "  );",
@@ -78,7 +79,8 @@
         "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
         "    return <div />;",
         "}",
-        ""
+        "",
+        "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
       ],
       "description": "Create ReactJS Stateless Component"
     },
@@ -90,7 +92,7 @@
         "",
         "// import { Container } from './styles';",
         "",
-        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
         "  return (",
         "    <div />",
         "  );",
