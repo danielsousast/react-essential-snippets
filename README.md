@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-        ## React Snippets
+        <h1>React Snippets</h1>
 </p>
 
 ## Tabela de Conteúdo
@@ -10,6 +10,7 @@
 - [Linguagens Suportadas](#linguagens-suportadas)
 - [React Native Snippets](#react-native-snippets)
 - [React JS Snippets](#react-js-snippets)
+- [Snippets Simultâneos](#snippets-simultaneos)
 - [Licença](#licen%C3%A7a)
 - [Contato](#contato)
 
@@ -40,8 +41,16 @@ Abaixo segue a lista com dos Snippets disponíveis para React Native:
 |                 `rc →`     | Cria um Componente **Default**                                                |
 |                `rfc →`     | Cria um Componente **Functional**                                             |
 |           `styled-react →` | Cria um arquivo de Estilização com **Styled Components**                      |
-|                 `api →`    | Cria um arquivo de configuração do Axios                                      |
 |       `reactotron-react →` | Cria arquivo de configuração do **Reactotron**                                |
+
+## Snippets simultâneos
+Abaixo segue a lista com dos Snippets compatíves com React JS e React Native Simulataneamente:
+
+|                 Gatilho    | Conteúdo                                                                      |
+| ----------------------:    | ----------------------------------------------------------------------------- |
+|         `reducer-index →`  | Cria um arquivo de junção de **Reducers**                                     |
+|            `saga-index →`  | Cria a  um arquivo de junção do **Redux Saga**                                |
+|                 `api →`    | Cria um arquivo de configuração do Axios                                      |
 
 ## Licença
 
