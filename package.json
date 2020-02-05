@@ -2,7 +2,7 @@
     "name": "react-simple-snippets",
     "displayName": "React Simple Snippets",
     "description": "VSCode Snippets - React Native and React JS",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "icon": "assets/simple.png",
     "publisher": "danielsousadev",
     "engines": {
