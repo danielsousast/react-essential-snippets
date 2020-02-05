@@ -2,7 +2,7 @@
     "name": "react-simple-snippets",
     "displayName": "React Simple Snippets",
     "description": "VSCode Snippets - React Native and React JS",
-    "version": "6.13.4",
+    "version": "1.3.4",
     "publisher": "danielsousadev",
     "engines": {
         "vscode": "^1.41.0"
