@@ -4,6 +4,10 @@
     "description": "VSCode Snippets - React Native and React JS",
     "version": "1.9.8",
     "icon": "assets/simple.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danielsousast/react-simple-snippets"
+    },
     "publisher": "danielsousadev",
     "engines": {
         "vscode": "^1.41.0"
