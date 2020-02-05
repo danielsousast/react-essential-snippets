@@ -1,5 +1,5 @@
 {
-    "nativeDefaultComponent": {
+    "reactNativeStatelessComponent": {
       "prefix": "rnc",
       "body": [
         "import React from 'react';",
@@ -13,7 +13,7 @@
         "}",
         ""
       ],
-      "description": "Create React Native Component"
+      "description": "Create React Native Stateless Component"
     },
   
     "nativeFunctionalComponent": {
@@ -34,7 +34,7 @@
       "description": "Create React Native Functional Component"
     },
   
-    "nativeStyled": {
+    "reactNativeStyled": {
       "prefix": "styled-rn",
       "body": [
         "import styled from 'styled-components/native';",
@@ -48,7 +48,7 @@
     },
   
   
-    "nativeReactotronConfig": {
+    "reactNativeReactotronConfig": {
       "prefix": "reactotron-rn",
       "body": [
         "import Reactotron from 'reactotron-react-native';",
@@ -68,7 +68,7 @@
       "description": "Create React Native Reactotron Config"
     },
 
-    "reactDefaultComponent": {
+    "reactStatelessComponent": {
       "prefix": "rc",
       "body": [
         "import React from 'react';",
@@ -80,7 +80,7 @@
         "}",
         ""
       ],
-      "description": "Create React JS Component"
+      "description": "Create ReactJS Stateless Component"
     },
   
     "reactFunctionalComponent": {
@@ -97,7 +97,7 @@
         "}",
         ""
       ],
-      "description": "Create React JS Functional Component"
+      "description": "Create ReactJS Functional Component"
     },
   
     "reactStyled": {
@@ -110,11 +110,11 @@
         "`;",
         ""
       ],
-      "description": "Create React JS Styled Components file"
+      "description": "Create ReactJS Styled Components file"
     },
   
     "reactReactotronConfig": {
-      "prefix": "reactotron-rn",
+      "prefix": "reactotron-react",
       "body": [
         "import Reactotron from 'reactotron-react-native';",
         "",
@@ -160,7 +160,7 @@
       "description": "Create Sagas index.js file"
     },
 
-    "axiosApi": {
+    "axios": {
       "prefix": "api",
       "body": [
         "import axios from 'axios';",
