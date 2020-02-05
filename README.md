@@ -1,6 +1,9 @@
 <br />
 <p align="center">
-        <h1>React Simple Snippets</h1>
+ <a href="https://instagram.com/danielsousadev">
+    <img src="assets/simple.png" alt="Simple Snippets" width="200px">
+  </a>
+        <h3 align="center">React Simple Snippets</h3>
 </p>
 
 ## Tabela de Conteúdo
