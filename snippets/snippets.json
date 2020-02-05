@@ -16,7 +16,7 @@
       "description": "Create React Native Stateless Component"
     },
   
-    "nativeFunctionalComponent": {
+    "reactNativeFunctionalComponent": {
       "prefix": "rnfc",
       "body": [
         "import React from 'react';",
@@ -24,7 +24,7 @@
         "",
         "// import { Container } from './styles';",
         "",
-        "export default const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
         "  return (",
         "    <View />",
         "  );",
@@ -90,7 +90,7 @@
         "",
         "// import { Container } from './styles';",
         "",
-        "export default const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
         "  return (",
         "    <div />",
         "  );",
@@ -116,7 +116,7 @@
     "reactReactotronConfig": {
       "prefix": "reactotron-react",
       "body": [
-        "import Reactotron from 'reactotron-react-native';",
+        "import Reactotron from 'reactotron-react-js';",
         "",
         "if (process.env.NODE_ENV === 'development') {",
         "  const tron = Reactotron",
