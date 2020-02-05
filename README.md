@@ -6,59 +6,63 @@
         <h3 align="center">React Simple Snippets</h3>
 </p>
 
-## Tabela de Conteúdo
+## Table of Contents
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Linguagens Suportadas](#linguagens-suportadas)
+- [Table of Contents](#table-of-contents)
+- [About the Project](#about-the-project)
 - [React Native Snippets](#react-native-snippets)
 - [React JS Snippets](#react-js-snippets)
-- [Snippets Simultâneos](#snippets-simultaneos)
-- [Licença](#licen%C3%A7a)
-- [Contato](#contato)
+- [General Snippets](#general-snippets)
+- [License](#license)
+- [Contact](#contact)
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto tem por objetivo prover um conjunto de Snippets para criação de componentes para ReactJS e React Native
+This project aims to provide a set of Snippets for the creation of components and configuration for ReactJS and React Native. They can help you to have greater productivity in development with these technologies.
 
-### React Native Snippets 
 
-Abaixo segue a lista com dos Snippets disponíveis para React JS:
 
-|                 Gatilho | Conteúdo                                                                      |
+## React Native Snippets 
+
+Below is a list of the Snippets available for React Native:
+
+|                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                 `rnc →` | Cria um Componente **Default**                                                |
-|                `rnfc →` | Cria um Componente **Functional**                                             |
-|           `styled-rn →` | Cria um arquivo de Estilização com **Styled Components**                      |
-|                 `api →` | Cria um arquivo de configuração do Axios                                      |
-|       `reactotron-rn →` | Cria arquivo de configuração do **Reactotron**                                |
+|                 `rnc →` | Creates a **Stateful** Component                                              |
+|                `rnfc →` | Creates a **Functional** Compontent                                           |
+|           `styled-rn →` | Creates a stylization file **Styled Components**                              |
+|       `reactotron-rn →` | Creates a configuration file of **Reactotron**                                |
+
 
 
 ## React JS Snippets
 
+Below is the list of Snippets available for React JS:
 
-Abaixo segue a lista com dos Snippets disponíveis para React JS:
-
-|                 Gatilho    | Conteúdo                                                                      |
+|                 Snippet    | Content                                                                       |
 | ----------------------:    | ----------------------------------------------------------------------------- |
-|                 `rc →`     | Cria um Componente **Default**                                                |
-|                `rfc →`     | Cria um Componente **Functional**                                             |
-|           `styled-react →` | Cria um arquivo de Estilização com **Styled Components**                      |
-|       `reactotron-react →` | Cria arquivo de configuração do **Reactotron**                                |
+|                 `rc →`     | Creates a **Stateful** Component                                              |
+|                `rfc →`     | Creates a **Functional** Compontent                                           |
+|           `styled-react →` | Creates a stylization file **Styled Components**                              |
+|       `reactotron-react →` | Creates a configuration file of **Reactotron**                                |
 
-## Snippets simultâneos
-Abaixo segue a lista com dos Snippets compatíves com React JS e React Native Simulataneamente:
 
-|                 Gatilho    | Conteúdo                                                                      |
-| ----------------------:    | ----------------------------------------------------------------------------- |
-|         `reducer-index →`  | Cria um arquivo de junção de **Reducers**                                     |
-|            `saga-index →`  | Cria a  um arquivo de junção do **Redux Saga**                                |
-|                 `api →`    | Cria um arquivo de configuração do Axios                                      |
+## General Snippets 
 
-## Licença
+Below is the list of the Snippets compatible with React JS and React Native:
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+|                 Snippet    | Content                                                                      |
+| ----------------------:    | -----------------------------------------------------------------------------|
+|         `reducer-index →`  | Creates a join file for **Reducers**                                         |
+|            `saga-index →`  | Creates a join file for **Redux Saga**                                       |
+|                 `api →`    | Creates a configuration file for **Axios**                                   |
 
-## Entre em contato
+
+## License
+
+Distributed under the *MIT license*. See `LICENSE` for more information.
+
+
+## Contact
 
 Daniel Sousa - [Github](https://github.com/danielsousast) - **daniel.sousa.developer@gmail.com**
