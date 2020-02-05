@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-        <h1>React Snippets</h1>
+        <h1>React Simple Snippets</h1>
 </p>
 
 ## Tabela de Conteúdo
@@ -16,7 +16,7 @@
 
 ## Sobre o Projeto
 
-Este projeto visa tem por objetivo prover um conjunto de Snippets para criação de componentes para ReactJS e React Native
+Este projeto tem por objetivo prover um conjunto de Snippets para criação de componentes para ReactJS e React Native
 
 ### React Native Snippets 
 
@@ -34,7 +34,7 @@ Abaixo segue a lista com dos Snippets disponíveis para React JS:
 ## React JS Snippets
 
 
-Abaixo segue a lista com dos Snippets disponíveis para React Native:
+Abaixo segue a lista com dos Snippets disponíveis para React JS:
 
 |                 Gatilho    | Conteúdo                                                                      |
 | ----------------------:    | ----------------------------------------------------------------------------- |
