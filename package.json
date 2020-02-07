@@ -1,7 +1,7 @@
 {
     "name": "react-simple-snippets",
     "displayName": "React Simple Snippets",
-    "description": "VSCode Snippets - React Native and React JS",
+    "description": "Snippets for React Native, ReactJS, Redux e Redux Saga",
     "version": "2.0.2",
     "icon": "assets/simple.png",
     "repository": {
@@ -17,6 +17,10 @@
     ],
     "contributes": {
         "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.json"

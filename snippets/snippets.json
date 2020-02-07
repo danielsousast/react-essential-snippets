@@ -1,180 +1,274 @@
 {
-    "reactNativeStatelessComponent": {
-      "prefix": "rnc",
-      "body": [
-        "import React from 'react';",
-        "",
-        "import { View } from 'react-native';",
-        "",
-        "// import { Container } from './styles';",
-        "",
-        "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
-        "    return <View />;",
-        "}",
-        "",
-        "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
-      ],
-      "description": "Create React Native Stateless Component"
-    },
-  
-    "reactNativeFunctionalComponent": {
-      "prefix": "rnfc",
-      "body": [
-        "import React from 'react';",
-        "import { View } from 'react-native';",
-        "",
-        "// import { Container } from './styles';",
-        "",
-        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
-        "  return (",
-        "    <View />",
-        "  );",
-        "}",
-        ""
-      ],
-      "description": "Create React Native Functional Component"
-    },
-  
-    "reactNativeStyled": {
-      "prefix": "styled-rn",
-      "body": [
-        "import styled from 'styled-components/native';",
-        "",
-        "export const ${1:Container} = styled.${2:View}`",
-        "  ${3}",
-        "`;",
-        ""
-      ],
-      "description": "Create React Native Styled Components file"
-    },
-  
-  
-    "reactNativeReactotronConfig": {
-      "prefix": "reactotron-rn",
-      "body": [
-        "import Reactotron from 'reactotron-react-native';",
-        "",
-        "if (__DEV__) {",
-        "  const tron = Reactotron",
-        "    .configure()",
-        "    .useReactNative()",
-        "    .connect();",
-        "",
-        "  tron.clear();",
-        "",
-        "  console.tron = tron;",
-        "}",
-        ""
-      ],
-      "description": "Create React Native Reactotron Config"
-    },
+  "reactNativeStatelessComponent": {
+    "prefix": "rnc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import { View } from 'react-native';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+      "    return <View />;",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create React Native Stateless Component"
+},
 
-    "reactStatelessComponent": {
-      "prefix": "rc",
-      "body": [
-        "import React from 'react';",
-        "",
-        "// import { Container } from './styles';",
-        "",
-        "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
-        "    return <div />;",
-        "}",
-        "",
-        "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
-      ],
-      "description": "Create ReactJS Stateless Component"
-    },
-  
-    "reactFunctionalComponent": {
-      "prefix": "rfc",
-      "body": [
-        "import React from 'react';",
-        "",
-        "// import { Container } from './styles';",
-        "",
-        "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
-        "  return (",
-        "    <div />",
-        "  );",
-        "}",
-        ""
-      ],
-      "description": "Create ReactJS Functional Component"
-    },
-  
-    "reactStyled": {
-      "prefix": "styled-react",
-      "body": [
-        "import styled from 'styled-components';",
-        "",
-        "export const ${1:Container} = styled.${2:div}`",
-        "  ${3}",
-        "`;",
-        ""
-      ],
-      "description": "Create ReactJS Styled Components file"
-    },
-  
-    "reactReactotronConfig": {
-      "prefix": "reactotron-react",
-      "body": [
-        "import Reactotron from 'reactotron-react-js';",
-        "",
-        "if (process.env.NODE_ENV === 'development') {",
-        "  const tron = Reactotron",
-        "    .configure()",
-        "    .connect();",
-        "",
-        "  tron.clear();",
-        "",
-        "  console.tron = tron;",
-        "}",
-        ""
-      ],
-      "description": "Create React JS Reactotron Config"
-    },
+"reactNativeClassComponent": {
+  "prefix": "rncc",
+  "body": [
+    "import React, {Component} from 'react';",
+    "",
+    "import { View } from 'react-native';",
+    "",
+    "// import { Container } from './styles';",
+    "",
+    "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
+    "    render() {",
+    "       return <View />;",
+    "     }",
+    "}",
+    "",
+    "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+  ],
+  "description": "Create React Native Class Component"
+},
 
-    "combineReducer": {
-      "prefix": "reducer-index",
-      "body": [
-        "import { combineReducers } from 'redux';",
-        "",
-        "const reducers = combineReducers({",
-        "  example: exampleRedeucer,",
-        "});",
-        "",
-        "export default reducers;",
-        ""
-      ],
-      "description": "Create a Reducers index.js file"
-    },
-  
-    "combineSaga": {
-      "prefix": "saga-index",
-      "body": [
-        "import { all } from 'redux-saga/effects';",
-        "",
-        "export default function* rootSaga() {",
-        "  yield all([]);",
-        "}",
-        ""
-      ],
-      "description": "Create Sagas index.js file"
-    },
+  "reactNativeFunctionalComponent": {
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
+      "  return (",
+      "    <View />",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create React Native Functional Component"
+  },
 
-    "axios": {
-      "prefix": "api",
-      "body": [
-        "import axios from 'axios';",
-        "",
-        "const api = axios.create({",
-        "  baseURL: ${1},",
-        "});",
-        "",
-        "export default api;",
-        ""
-      ],
-      "description": "Create Axios Configuration"
-    }
+"reactNativeStyleSheet": {
+  "prefix": "styles-rn",
+  "body": [
+    "const styles = StyleSheet.crate({",
+    "  ${1:Container}: {",
+    "  }",
+    "})"
+  ],
+  "description": "Create StyleSheet for React Native"
+  },
+
+
+  "reactNativeStyled": {
+    "prefix": "styled-rn",
+    "body": [
+      "import styled from 'styled-components/native';",
+      "",
+      "export const ${1:Container} = styled.${2:View}`",
+      "  ${3}",
+      "`;",
+      ""
+    ],
+    "description": "Create React Native Styled Components file"
+  },
+
+
+  "reactNativeReactotronConfig": {
+    "prefix": "tron-rn",
+    "body": [
+      "import Reactotron from 'reactotron-react-native';",
+      "",
+      "if (__DEV__) {",
+      "  const tron = Reactotron",
+      "    .configure()",
+      "    .useReactNative()",
+      "    .connect();",
+      "",
+      "  tron.clear();",
+      "",
+      "  console.tron = tron;",
+      "}",
+      ""
+    ],
+    "description": "Create React Native Reactotron Config"
+  },
+
+  "reactStatelessComponent": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
+      "    return <div />;",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create ReactJS Stateless Component"
+  },
+
+  "reactClassComponent": {
+  "prefix": "rcc",
+  "body": [
+    "import React, {Component} from 'react';",
+    "",
+    "// import { Container } from './styles';",
+    "",
+    "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
+    "    render () {;",
+    "        return <div />;",
+    "    };",
+    "}",
+    "",
+    "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+  ],
+  "description": "Create ReactJS Class Component"
+  },
+
+  "reactFunctionalComponent": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}(){",
+      "  return (",
+      "    <div />",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create ReactJS Functional Component"
+  },
+
+  "reactStyled": {
+    "prefix": "styled-react",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:Container} = styled.${2:div}`",
+      "  ${3}",
+      "`;",
+      ""
+    ],
+    "description": "Create ReactJS Styled Components file"
+  },
+
+  "reactImport": {
+  "prefix": "react",
+  "body": [
+    "import React from 'react';",
+    ""
+  ],
+  "description": "Import a React"
+  },	
+
+"propTypesImport": {
+  "prefix": "prop",
+  "body": [
+    "import PropTypes from 'prop-types';",
+    ""
+  ],
+  "description": "Import PropTypes"
+},	
+
+  "reactReactotronConfig": {
+    "prefix": "tron-react",
+    "body": [
+      "import Reactotron from 'reactotron-react-js';",
+      "",
+      "if (process.env.NODE_ENV === 'development') {",
+      "  const tron = Reactotron",
+      "    .configure()",
+      "    .connect();",
+      "",
+      "  tron.clear();",
+      "",
+      "  console.tron = tron;",
+      "}",
+      ""
+    ],
+    "description": "Create React JS Reactotron Config"
+},
+
+"createReducer": {
+  "prefix": "reducer",
+  "body": [
+    "const initialState = {}",
+    "",
+    "const ${1} = (state = initialState, action) => {",
+    "  switch(action.type) {",
+    "     default:",
+    "       return state;",
+    "  }",
+    "};",
+    "",
+    "export default ${1};"
+  ],
+  "description": "Create a new Reducer"
+  },
+
+  "rootReducer": {
+    "prefix": "root-reducer",
+    "body": [
+      "import { combineReducers } from 'redux';",
+      "",
+      "const rootReducer = combineReducers({",
+      "  ${1}",
+      "});",
+      "",
+      "export default rootReducer"
+    ],
+    "description": "Create a rootReducer"
+},
+
+"createSaga": {
+  "prefix": "saga",
+  "body": [
+    "import { all } from 'redux-saga/effects';",
+    "",
+    "export default all([])",
+    ""
+  ],
+  "description": "Create rootSaga file"
+  },
+
+  "rootSaga": {
+    "prefix": "root-saga",
+    "body": [
+      "import { all } from 'redux-saga/effects';",
+      "",
+      "export default function* rootSaga() {",
+      "  yield all([]);",
+      "}",
+      ""
+    ],
+    "description": "Create rootSaga file"
+  },
+
+  "axios": {
+    "prefix": "api",
+    "body": [
+      "import axios from 'axios';",
+      "",
+      "const api = axios.create({",
+      "  baseURL: ${1},",
+      "});",
+      "",
+      "export default api;",
+      ""
+    ],
+    "description": "Create Axios Configuration"
   }
-  
+}

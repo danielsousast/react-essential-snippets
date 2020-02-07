@@ -28,10 +28,12 @@ Below is a list of the Snippets available for React Native:
 
 |                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                 `rnc →` | Creates a **Stateless** Component                                              |
+|                 `rnc →` | Creates a **Stateless** Component                                             |
+|                `rncc →` | Creates a **Class** Component                                                 |
 |                `rnfc →` | Creates a **Functional** Compontent                                           |
+|           `styles-rn →` | Creates a **StyleSheet**                                                      |
 |           `styled-rn →` | Creates a stylization file **Styled Components**                              |
-|       `reactotron-rn →` | Creates a configuration file of **Reactotron**                                |
+|             `tron-rn →` | Creates a configuration file of **Reactotron**                                |
 
 
 
@@ -39,23 +41,27 @@ Below is a list of the Snippets available for React Native:
 
 Below is the list of Snippets available for React JS:
 
-|                 Snippet    | Content                                                                       |
-| ----------------------:    | ----------------------------------------------------------------------------- |
-|                 `rc →`     | Creates a **Stateless** Component                                              |
-|                `rfc →`     | Creates a **Functional** Compontent                                           |
-|           `styled-react →` | Creates a stylization file **Styled Components**                              |
-|       `reactotron-react →` | Creates a configuration file of **Reactotron**                                |
+|                 Snippet | Content                                                                       |
+| ----------------------: | ----------------------------------------------------------------------------- |
+|                  `rc →` | Creates a **Stateless** Component                                             |
+|                 `rcc →` | Creates a **Class** Component                                                 |
+|                 `rfc →` | Creates a **Functional** pontent                                              |
+|        `styled-react →` | Creates a stylization file **Styled Components**                              |
+|          `tron-react →` | Creates a configuration file of **Reactotron**                                |
 
 
 ## General Snippets 
 
 Below is the list of the Snippets compatible with React JS and React Native:
 
-|                 Snippet    | Content                                                                      |
-| ----------------------:    | -----------------------------------------------------------------------------|
-|         `reducer-index →`  | Creates a join file for **Reducers**                                         |
-|            `saga-index →`  | Creates a join file for **Redux Saga**                                       |
-|                 `api →`    | Creates a configuration file for **Axios**                                   |
+|                 Snippet  | Content                                                                      |
+| ----------------------:  | -----------------------------------------------------------------------------|
+|               `react →`  | Import the **React**                                                         |
+|             `reducer →`  | Creates a new **Reducer**                                                    |
+|        `root-reducer →`  | Creates a join file for **Reducers**                                         |
+|                `saga →`  | Creates a new **Saga**                                                       |
+|           `root-saga →`  | Creates a join file for **Redux Saga**                                       |
+|                 `api →`  | Creates a configuration file for **Axios**                                   |
 
 
 ## License
