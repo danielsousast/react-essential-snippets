@@ -1,7 +1,7 @@
 {
     "name": "react-simple-snippets",
     "displayName": "React Simple Snippets",
-    "description": "Snippets for React Native, ReactJS, Redux e Redux Saga",
+    "description": "Snippets for React Native, ReactJS, Redux and Redux Saga",
     "version": "2.2.0",
     "icon": "assets/simple.png",
     "repository": {
