@@ -3,7 +3,7 @@
     "displayName": "React Essential Snippets",
     "description": "Essential Snippets for React Native, ReactJS, Redux and Redux Saga",
     "version": "2.3.0",
-    "icon": "assets/simple.jpg",
+    "icon": "assets/simple.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/danielsousast/react-essential-snippets"
