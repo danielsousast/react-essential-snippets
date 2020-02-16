@@ -1,12 +1,12 @@
 {
     "name": "react-simple-snippets",
-    "displayName": "React Simple Snippets",
-    "description": "Snippets for React Native, ReactJS, Redux and Redux Saga",
+    "displayName": "React Essential Snippets",
+    "description": "Essential Snippets for React Native, ReactJS, Redux and Redux Saga",
     "version": "2.2.0",
-    "icon": "assets/simple.png",
+    "icon": "assets/simple.jpg",
     "repository": {
         "type": "git",
-        "url": "https://github.com/danielsousast/react-simple-snippets"
+        "url": "https://github.com/danielsousast/react-essential-snippets"
     },
     "publisher": "danielsousadev",
     "engines": {
