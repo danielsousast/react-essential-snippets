@@ -3,7 +3,7 @@
  <a href="https://instagram.com/danielsousadev">
     <img src="assets/simple.png" alt="Essential Snippets" width="200px">
   </a>
-        <h3 align="center">React Simple Snippets</h3>
+        <h3 align="center">React Essential Snippets</h3>
 </p>
 
 ## Table of Contents
