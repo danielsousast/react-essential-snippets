@@ -2,7 +2,7 @@
     "name": "react-essential-snippets",
     "displayName": "React Essential Snippets",
     "description": "Essential Snippets for React Native, ReactJS, Redux and Redux Saga",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "icon": "assets/simple.png",
     "repository": {
         "type": "git",
