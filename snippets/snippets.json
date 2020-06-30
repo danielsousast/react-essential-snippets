@@ -1,41 +1,23 @@
 {
-  "reactNativeStatelessComponent": {
-    "prefix": "rnc",
+  "reactNativeClassComponent": {
+    "prefix": "rncc",
     "body": [
-      "import React from 'react';",
+      "import React, {Component} from 'react';",
       "",
       "import { View } from 'react-native';",
       "",
       "// import { Container } from './styles';",
       "",
-      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
-      "    return <View />;",
+      "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
+      "    render() {",
+      "       return <View />;",
+      "     }",
       "}",
       "",
       "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
     ],
-    "description": "Create React Native Stateless Component"
-},
-
-"reactNativeClassComponent": {
-  "prefix": "rncc",
-  "body": [
-    "import React, {Component} from 'react';",
-    "",
-    "import { View } from 'react-native';",
-    "",
-    "// import { Container } from './styles';",
-    "",
-    "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
-    "    render() {",
-    "       return <View />;",
-    "     }",
-    "}",
-    "",
-    "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
-  ],
-  "description": "Create React Native Class Component"
-},
+    "description": "Create React Native Class Component"
+  },
 
   "reactNativeFunctionalComponent": {
     "prefix": "rnfc",
@@ -58,8 +40,8 @@
 "reactNativeStyleSheet": {
   "prefix": "styles-rn",
   "body": [
-    "const styles = StyleSheet.crate({",
-    "  ${1:Container}: {",
+    "const styles = StyleSheet.create({",
+    "  ${1:container}: {",
     "  }",
     "})"
   ],
@@ -99,22 +81,6 @@
       ""
     ],
     "description": "Create React Native Reactotron Config"
-  },
-
-  "reactStatelessComponent": {
-    "prefix": "rc",
-    "body": [
-      "import React from 'react';",
-      "",
-      "// import { Container } from './styles';",
-      "",
-      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {",
-      "    return <div />;",
-      "}",
-      "",
-      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
-    ],
-    "description": "Create ReactJS Stateless Component"
   },
 
   "reactClassComponent": {

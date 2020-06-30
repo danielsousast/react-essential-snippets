@@ -28,7 +28,6 @@ Below is a list of the Snippets available for React Native:
 
 |                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                 `rnc →` | Creates a **Stateless** Component                                             |
 |                `rncc →` | Creates a **Class** Component                                                 |
 |                `rnfc →` | Creates a **Functional** Compontent                                           |
 |           `styles-rn →` | Creates a **StyleSheet**                                                      |
@@ -43,7 +42,6 @@ Below is the list of Snippets available for React JS:
 
 |                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                  `rc →` | Creates a **Stateless** Component                                             |
 |                 `rcc →` | Creates a **Class** Component                                                 |
 |                 `rfc →` | Creates a **Functional** pontent                                              |
 |        `styled-react →` | Creates a stylization file **Styled Components**                              |
