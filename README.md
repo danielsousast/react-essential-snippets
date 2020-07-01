@@ -29,7 +29,8 @@ Below is a list of the Snippets available for React Native:
 |                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
 |                `rncc →` | Creates a **Class** Component                                                 |
-|                `rnfc →` | Creates a **Functional** Compontent                                           |
+|                `rnfc →` | Creates a **Functional** Component                                            |
+|                `rntc →` | Creates a **Typescript** Component                                            |
 |           `styles-rn →` | Creates a **StyleSheet**                                                      |
 |           `styled-rn →` | Creates a stylization file **Styled Components**                              |
 |             `tron-rn →` | Creates a configuration file of **Reactotron**                                |
@@ -43,7 +44,8 @@ Below is the list of Snippets available for React JS:
 |                 Snippet | Content                                                                       |
 | ----------------------: | ----------------------------------------------------------------------------- |
 |                 `rcc →` | Creates a **Class** Component                                                 |
-|                 `rfc →` | Creates a **Functional** pontent                                              |
+|                 `rfc →` | Creates a **Functional** Component                                            |
+|                 `rtc →` | Creates a **Typescript** Component                                            |
 |        `styled-react →` | Creates a stylization file **Styled Components**                              |
 |          `tron-react →` | Creates a configuration file of **Reactotron**                                |
 

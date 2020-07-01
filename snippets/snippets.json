@@ -236,5 +236,40 @@
       ""
     ],
     "description": "Create Axios Configuration"
+  },
+
+  "typescriptNativeComponent": {
+    "prefix": "rntc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import { View } from 'react-native';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: React.FC = () => {",
+      "       return <View />;",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create React Native Typescript Component"
+  },
+
+  "typescriptReactComponent": {
+    "prefix": "rntc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: React.FC = () => {",
+      "       return <div />;",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create React Typescript Component"
   }
 }
