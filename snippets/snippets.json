@@ -18,7 +18,6 @@
     ],
     "description": "Create React Native Class Component"
   },
-
   "reactNativeFunctionalComponent": {
     "prefix": "rnfc",
     "body": [
@@ -36,19 +35,16 @@
     ],
     "description": "Create React Native Functional Component"
   },
-
-"reactNativeStyleSheet": {
-  "prefix": "styles-rn",
-  "body": [
-    "const styles = StyleSheet.create({",
-    "  ${1:container}: {",
-    "  }",
-    "})"
-  ],
-  "description": "Create StyleSheet for React Native"
+  "reactNativeStyleSheet": {
+    "prefix": "styles-rn",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "  ${1:container}: {",
+      "  }",
+      "})"
+    ],
+    "description": "Create StyleSheet for React Native"
   },
-
-
   "reactNativeStyled": {
     "prefix": "styled-rn",
     "body": [
@@ -61,8 +57,6 @@
     ],
     "description": "Create React Native Styled Components file"
   },
-
-
   "reactNativeReactotronConfig": {
     "prefix": "tron-rn",
     "body": [
@@ -82,25 +76,23 @@
     ],
     "description": "Create React Native Reactotron Config"
   },
-
   "reactClassComponent": {
-  "prefix": "rcc",
-  "body": [
-    "import React, {Component} from 'react';",
-    "",
-    "// import { Container } from './styles';",
-    "",
-    "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
-    "    render () {;",
-    "        return <div />;",
-    "    };",
-    "}",
-    "",
-    "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
-  ],
-  "description": "Create ReactJS Class Component"
+    "prefix": "rcc",
+    "body": [
+      "import React, {Component} from 'react';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
+      "    render () {;",
+      "        return <div />;",
+      "    };",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create ReactJS Class Component"
   },
-
   "reactFunctionalComponent": {
     "prefix": "rfc",
     "body": [
@@ -117,7 +109,6 @@
     ],
     "description": "Create ReactJS Functional Component"
   },
-
   "reactStyled": {
     "prefix": "styled-react",
     "body": [
@@ -130,25 +121,22 @@
     ],
     "description": "Create ReactJS Styled Components file"
   },
-
   "reactImport": {
-  "prefix": "react",
-  "body": [
-    "import React from 'react';",
-    ""
-  ],
-  "description": "Import a React"
-  },	
-
-"propTypesImport": {
-  "prefix": "prop",
-  "body": [
-    "import PropTypes from 'prop-types';",
-    ""
-  ],
-  "description": "Import PropTypes"
-},	
-
+    "prefix": "react",
+    "body": [
+      "import React from 'react';",
+      ""
+    ],
+    "description": "Import a React"
+  },
+  "propTypesImport": {
+    "prefix": "prop",
+    "body": [
+      "import PropTypes from 'prop-types';",
+      ""
+    ],
+    "description": "Import PropTypes"
+  },
   "reactReactotronConfig": {
     "prefix": "tron-react",
     "body": [
@@ -166,25 +154,23 @@
       ""
     ],
     "description": "Create React JS Reactotron Config"
-},
-
-"createReducer": {
-  "prefix": "reducer",
-  "body": [
-    "const initialState = {}",
-    "",
-    "const ${1} = (state = initialState, action) => {",
-    "  switch(action.type) {",
-    "     default:",
-    "       return state;",
-    "  }",
-    "};",
-    "",
-    "export default ${1};"
-  ],
-  "description": "Create a new Reducer"
   },
-
+  "createReducer": {
+    "prefix": "reducer",
+    "body": [
+      "const initialState = {}",
+      "",
+      "const ${1} = (state = initialState, action) => {",
+      "  switch(action.type) {",
+      "     default:",
+      "       return state;",
+      "  }",
+      "};",
+      "",
+      "export default ${1};"
+    ],
+    "description": "Create a new Reducer"
+  },
   "rootReducer": {
     "prefix": "root-reducer",
     "body": [
@@ -197,19 +183,17 @@
       "export default rootReducer"
     ],
     "description": "Create a rootReducer"
-},
-
-"createSaga": {
-  "prefix": "saga",
-  "body": [
-    "import { all } from 'redux-saga/effects';",
-    "",
-    "export default all([])",
-    ""
-  ],
-  "description": "Create rootSaga file"
   },
-
+  "createSaga": {
+    "prefix": "saga",
+    "body": [
+      "import { all } from 'redux-saga/effects';",
+      "",
+      "export default all([])",
+      ""
+    ],
+    "description": "Create rootSaga file"
+  },
   "rootSaga": {
     "prefix": "root-saga",
     "body": [
@@ -222,7 +206,6 @@
     ],
     "description": "Create rootSaga file"
   },
-
   "axios": {
     "prefix": "api",
     "body": [
@@ -237,7 +220,6 @@
     ],
     "description": "Create Axios Configuration"
   },
-
   "typescriptNativeComponent": {
     "prefix": "rntc",
     "body": [
@@ -255,9 +237,8 @@
     ],
     "description": "Create React Native Typescript Component"
   },
-
   "typescriptReactComponent": {
-    "prefix": "rntc",
+    "prefix": "rtc",
     "body": [
       "import React from 'react';",
       "",
@@ -271,5 +252,47 @@
       "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
     ],
     "description": "Create React Typescript Component"
+  },
+  "useEffectHook": {
+    "prefix": "use-effect",
+    "body": [
+      "useEffect(()=>{${1}},[]);"
+    ],
+    "description": "Create useEffect Hook"
+  },
+  "useFocusEffectHook": {
+    "prefix": "use-focus",
+    "body": [
+      "useFocusEffect(useCallback(()=>{${1}},[]));"
+    ],
+    "description": "Create useEffect Hook"
+  },
+  "useSateHook": {
+    "prefix": "use-state",
+    "body": [
+      "const[${1},${1}] = useState();"
+    ],
+    "description": "Create useState Hook"
+  },
+  "useMemoHook": {
+    "prefix": "use-memo",
+    "body": [
+      "const ${1} = useMemo(() => {${2}}, []);"
+    ],
+    "description": "Create useMemo Hook"
+  },
+  "useCallbackHook": {
+    "prefix": "use-callback",
+    "body": [
+      "const ${1} = useCallback(() => {${2}}, []);"
+    ],
+    "description": "Create useCallback Hook"
+  },
+  "useNavigation": {
+    "prefix": "use-navigation",
+    "body": [
+      "const navigation = useNavigation();"
+    ],
+    "description": "Create useNavigation Hook"
   }
 }
